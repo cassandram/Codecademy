@@ -136,7 +136,7 @@ for item in daily_transactions_split:
   #create a new empty list
   for data in item:
     #major bruh moment
-    #for the data in the item iteration...
+    #this for loop is iterating through the previous for loop "for item in daily_transactions"
     new_list.append(data.strip(" "))
     #this iteration runs through each transaction, strips whitespace, and appends it to new_list
     transactions_clean.append(new_list)
